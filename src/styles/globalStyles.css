@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 body {
     font-family: "Inter", sans-serif;
@@ -6,4 +7,85 @@ body {
 
 header {
     width: 100%;
+    height: 94px;
+
+    background-color: #eeeeee;
+
+    position: fixed;
+    top: 0px;
+
+    z-index: 1;
+}
+
+.container_header {
+    height: 100%;
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_nav {
+    width: 333px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 18px;
+}
+
+.container_nav li {
+    cursor: pointer;
+}
+
+.style_div_header {
+    width: 361px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_search input[type=text] {
+    width: 242px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #eeeeee;
+
+    border-bottom: solid 1px #000000;
+
+    padding-bottom: 5px;
+}
+
+.container_search ::placeholder {
+    color: #8C8C8C;
+
+    font-size: 14px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+
+main {
+    max-width: 1200px;
+
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+    padding-top: 60px;
 }

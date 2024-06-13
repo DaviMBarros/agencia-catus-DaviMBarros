@@ -1,87 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="src/styles/reset.css">
-    <link rel="stylesheet" href="src/styles/globalStyles.css">
-    <link rel="stylesheet" href="src/styles/index.css">
+        <link rel="stylesheet" href="src/styles/reset.css">
+        <link rel="stylesheet" href="src/styles/globalStyles.css">
+        <link rel="stylesheet" href="src/styles/index.css">
 
-    <script defer type="module" src="src/scripts/database.js"></script>
-    <script defer type="module" src="src/scripts/index.js"></script>
-    
-    <title>Catus</title>
-</head>
+        <script defer type="module" src="src/scripts/database.js"></script>
+        <script defer type="module" src="src/scripts/index.js"></script>
 
-<body>
-    <header>
+        <title>Catus</title>
+    </head>
 
-        <img src="src/assets/Group.png" alt="">
-
-        <nav>
-            <ul>
-                <li>Loja</li>
-                <li>Login</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-            </ul>
-        </nav>
-
-        <div>
-            <input type="text" placeholder="Digite aqui sua busca">
-            <img src="src/assets/Union.png" alt="">
-            <img src="src/assets/cart.png" alt="">
-        </div>
-
-    </header>
-
-    <main>
+    <body>
+        <header>
+            <div class="container_header">
+                <img src="src/assets/Group.png" alt="">
         
-        <div>
-            <img src="src/assets/banner 01.png" alt="">
-            <img src="src/assets/banner 02.png" alt="">
-            <img src="src/assets/banner 03.png" alt="">
-            <img src="src/assets/banner 04.png" alt="">
-            <img src="src/assets/banner 05.png" alt="">
-        </div>
-
-        <div>
-            <h2>Oportunidades para economizar</h2>
-
-            <ul class="container_products"></ul>
-        </div>
+                <nav>
+                    <ul class="container_nav">
+                        <li>Loja</li>
+                        <li>Login</li>
+                        <li>Sobre</li>
+                        <li>Contato</li>
+                    </ul>
+                </nav>
         
-        <div>
-            <div>
+                <div class="style_div_header">
+                    <div class="container_search">
+                        <input type="text" placeholder="Digite aqui sua busca">
+                        <img src="src/assets/Union.png" alt="Ícone lupa de pesquisa">
+                    </div>
+                    <img src="src/assets/cart.png" alt="Ícone carrinho de compra">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container_imgs">
+                <div class="style_div_img">
+                    <img src="src/assets/banner 01.png" alt="Imagem ilustrativa">
+                    <img src="src/assets/banner 02.png" alt="Imagem ilustrativa">
+                </div>
+                <div class="style_img">
+                    <img src="src/assets/banner 03.png" alt="Imagem ilustrativa" >
+                </div>
+                <div class="style_div_img">
+                    <img src="src/assets/banner 04.png" alt="Imagem ilustrativa">
+                    <img src="src/assets/banner 05.png" alt="Imagem ilustrativa">
+                </div>
+            </div>
+
+            <div class="container_showcase">
+                <h2>Oportunidades para economizar</h2>
+                <div>
+                    <ul class="container_products">
+                        <img src="src/assets/Component 9.png" alt="Ícone seta para direita" class="style_icon">
+                        <img src="src/assets/Component 8.png" alt="Ícone seta para esquerda" class="style_icon">
+                        <div class="style_line"></div>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="contact_style">
                 <h3>Central de atendimento</h3>
-                <ul>
-                    <li>Ajuda e suporte</li>
-                    <li>Fale conosco</li>
-                    <li>Faq</li>
-                </ul>
-                <span>Whatsapp: (11) 99999-9999</span>
-                <span>Nossos horários</span>
-                <p>Segunda a sexta das 9h às 18h</p>
+                <div class="contact_style_container">
+                    <ul class="position_line style_ul">
+                        <div class="style_lines"></div>
+                        <li>Ajuda e suporte</li>
+                        <li>Fale conosco</li>
+                        <li>Faq</li>
+                    </ul>
+                    <div>
+                        <span>Whatsapp: (11) 99999-9999</span>
+                    </div>
+                    <div>
+                        <span>Nossos horários</span>
+                        <p>Segunda a sexta das 9h às 18h</p>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <img src="src/assets/Frame 129.png" alt="">
-                <img src="src/assets/selo_lojaprotegida.png" alt="">
+            <div class="style_seal">
+                <h3>Selos de Segurança</h3>
+                <div class="position_line container_seal">
+                    <div class="style_lines"></div>
+                    <img src="src/assets/Frame 129.png" alt="Selo de segurança">
+                    <img src="src/assets/selo_lojaprotegida.png" alt="Selo de segurança">
+                </div>
             </div>
 
-            <div>
+            <div class="style_payment">
                 <h3>Formas de Pagamento</h3>
-                <ul>
-                    <li><img src="src/assets/visa.png" alt=""></li>
-                    <li><img src="src/assets/mastercard.png" alt=""></li>
-                    <li><img src="src/assets/amex.png" alt=""></li>
-                    <li><img src="src/assets/diners.png" alt=""></li>
-                    <li><img src="src/assets/Group 26.png" alt=""></li>
-                    <li><img src="src/assets/Group 6.png" alt=""></li>
+                <ul class="position_line container_payment">
+                    <div class="style_lines"></div>
+                    <li><img src="src/assets/visa.png" alt="Bandeira cartão visa"></li>
+                    <li><img src="src/assets/mastercard.png" alt="Bandeira cartão mastercar"></li>
+                    <li><img src="src/assets/amex.png" alt="Bandeira cartão amex"></li>
+                    <li><img src="src/assets/diners.png" alt="Bandeira cartão diners"></li>
+                    <li><img src="src/assets/Group 26.png" alt="Bandeira cartão discover"></li>
+                    <li><img src="src/assets/Group 6.png" alt="Bandeira de boleto e pix"></li>
                 </ul>
             </div>
-        </div>
-    </main>
-</body>
+        </footer>
+    </body>
 </html>

@@ -5,7 +5,7 @@ export const products = [
         title: "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
         discount: "de R$ 582,90",
         price: 238.41,
-        payment: "5x de R$ 47,68 sem juros"
+        payment: 47.68
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const products = [
         title: "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
         discount: "de R$ 582,90",
         price: 238.41,
-        payment: "5x de R$ 47,68 sem juros"
+        payment: 47.68
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export const products = [
         title: "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
         discount: "de R$ 582,90",
         price: 238.41,
-        payment: "5x de R$ 47,68 sem juros"
+        payment: 47.68
     },
     {
         id: 4,
@@ -29,6 +29,6 @@ export const products = [
         title: "Aliquam congue nisl ele ac ligula convallis, luctus blandit augue.",
         discount: "de R$ 582,90",
         price: 238.41,
-        payment: "5x de R$ 47,68 sem juros"
+        payment: 47.68
     },
 ];
