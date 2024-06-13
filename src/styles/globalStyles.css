@@ -51,6 +51,10 @@ header {
     gap: 20px;
 }
 
+.style_div_header img {
+    cursor: pointer;
+}
+
 .container_search {
     display: flex;
     align-items: center;
